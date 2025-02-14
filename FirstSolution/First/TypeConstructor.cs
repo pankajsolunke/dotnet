@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,62 +25,77 @@ namespace First
      *  we call that as parameterized constructor and these constructors
      *  can be defind by the programmers only but never can be defined implicitly.
      * 
+     * 3. Copy Constructor:
+     *  It we want to create multiple instances with the same values
+     *  then we use these copy constructors, in a copy constructor the
+     *  constructor takes the same class as a paramter to it.
      * 
-     * 
+     *  4. Static Constructor:
+     *   If a constructor is explicitly declared by using static modifier
+     *   we call that as Static Constructor. All the constructors we have
+     *   defined till now are non-static or instance constructors.
+     *  | 
+     *  |--> Static Constructors can't be parameterized so oerloading static
+     *       constructors is not possible.
+     */
+
+    /*Default or parameter less Constructor
+    public TypeConstructor() { 
+
+    }
+    */
+
+    /*Parameterized Constructor
+    int x;
+     public TypeConstructor(int i) {
+        x = i;
+        Console.WriteLine("Parameterized Constructor is called:"+i);
+    }
+    public void Display()
+    {
+        Console.WriteLine("Value of x is: " + x);
+    }
+    */
+
+    /*
      */
     class TypeConstructor
     {
-        /*Default or parameter less Constructor
-        public TypeConstructor() { 
-        
-        }
-        */
-
-        /*Parameterized Constructor
-        int x;
-         public TypeConstructor(int i) {
-            x = i;
-            Console.WriteLine("Parameterized Constructor is called:"+i);
-        }
-        public void Display()
+        /*int x;
+        public TypeConstructor(int i) //Parameterized Constructor
         {
-            Console.WriteLine("Value of x is: " + x);
-        }
-        */
-
-        /*Copy Constructor:
-          It we want to create multiple instances with the same values
-          then we use these copy constructors, in a copy constructor the
-          constructor takes the same class as a paramter to it.
-         */
-
-        int x;
-        public TypeConstructor(int i) {
             x = i;
         }
-        public TypeConstructor(TypeConstructor obj)
+        public TypeConstructor(TypeConstructor obj) //Copy Constructor
         {
             x = obj.x;
         }
         public void Display()
         {
            Console.WriteLine("Value of x is: "+x);
+        }*/
+
+        static TypeConstructor()
+        {
+            Console.WriteLine("Static Constructor is executed.");
         }
         static void Main(string[] args)
         {
-            TypeConstructor t = new TypeConstructor(10);
-            TypeConstructor t1 = new TypeConstructor(t);
-            t.Display();
-            t1.Display();
+            //Copy Constructor
+            //TypeConstructor t = new TypeConstructor(10);
+            //TypeConstructor t1 = new TypeConstructor(t);
+            //t.Display();
+            //t1.Display();
 
-            Console.ReadLine();
-
-
+            //Parameterized Constructor
             //TypeConstructor t = new TypeConstructor(23);
             //TypeConstructor t1 = new TypeConstructor(12);
             //t.Display();
             //t1.Display();
-            //Console.ReadLine();
+            
+            //Static Constructor
+            Console.WriteLine("Main method is executed.");
+
         }
         
 
