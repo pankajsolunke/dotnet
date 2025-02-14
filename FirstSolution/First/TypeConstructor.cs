@@ -8,8 +8,8 @@ using System.Threading.Tasks;
 namespace First
 {
     /*Type of Constructors
-     * 1. Default or parameter less Constructor
-     * 2. Parameterized Constructor
+     * 1.Default or parameter less Constructor
+     * 2.Parameterized Constructor
      * 3.Copy Constructor
      * 4.Static Constructor
      * 
@@ -35,7 +35,7 @@ namespace First
         }
         */
 
-        //Parameterized Constructor
+        /*Parameterized Constructor
         int x;
          public TypeConstructor(int i) {
             x = i;
@@ -45,13 +45,41 @@ namespace First
         {
             Console.WriteLine("Value of x is: " + x);
         }
+        */
 
+        /*Copy Constructor:
+          It we want to create multiple instances with the same values
+          then we use these copy constructors, in a copy constructor the
+          constructor takes the same class as a paramter to it.
+         */
+
+        int x;
+        public TypeConstructor(int i) {
+            x = i;
+        }
+        public TypeConstructor(TypeConstructor obj)
+        {
+            x = obj.x;
+        }
+        public void Display()
+        {
+           Console.WriteLine("Value of x is: "+x);
+        }
         static void Main(string[] args)
         {
-            TypeConstructor t = new TypeConstructor(23);
-            TypeConstructor t1 = new TypeConstructor(12);
+            TypeConstructor t = new TypeConstructor(10);
+            TypeConstructor t1 = new TypeConstructor(t);
+            t.Display();
             t1.Display();
+
             Console.ReadLine();
+
+
+            //TypeConstructor t = new TypeConstructor(23);
+            //TypeConstructor t1 = new TypeConstructor(12);
+            //t.Display();
+            //t1.Display();
+            //Console.ReadLine();
         }
         
 
