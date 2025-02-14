@@ -38,6 +38,7 @@ namespace First
         //Parameterized Constructor
         int x;
          public TypeConstructor(int i) {
+            x = i;
             Console.WriteLine("Parameterized Constructor is called:"+i);
         }
         public void Display()

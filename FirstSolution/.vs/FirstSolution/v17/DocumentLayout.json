@@ -10,7 +10,7 @@
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|First||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A8987F0-0F71-43B7-9C11-03F5B081F637}|First\\First.csproj|d:\\dotnet\\firstsolution\\first\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A8987F0-0F71-43B7-9C11-03F5B081F637}|First\\First.csproj|D:\\dotnet\\FirstSolution\\first\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A8987F0-0F71-43B7-9C11-03F5B081F637}|First\\First.csproj|solutionrelative:first\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -20,9 +20,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8A8987F0-0F71-43B7-9C11-03F5B081F637}|First\\First.csproj|D:\\dotnet\\FirstSolution\\first\\explicit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A8987F0-0F71-43B7-9C11-03F5B081F637}|First\\First.csproj|solutionrelative:first\\explicit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A8987F0-0F71-43B7-9C11-03F5B081F637}|First\\First.csproj|d:\\dotnet\\firstsolution\\first\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +39,7 @@
               "RelativeDocumentMoniker": "First\\TypeConstructor.cs",
               "ToolTip": "D:\\dotnet\\FirstSolution\\First\\TypeConstructor.cs",
               "RelativeToolTip": "First\\TypeConstructor.cs",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAACsAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAwDQAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-14T02:46:44.689Z",
               "EditorCaption": ""
@@ -68,8 +65,7 @@
               "ToolTip": "D:\\dotnet\\FirstSolution\\First\\First.csproj",
               "RelativeToolTip": "First\\First.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-02-13T19:40:33.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T19:40:33.333Z"
             },
             {
               "$type": "Document",
@@ -93,8 +89,7 @@
               "RelativeToolTip": "First\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T19:35:52.143Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T19:35:52.143Z"
             }
           ]
         }
