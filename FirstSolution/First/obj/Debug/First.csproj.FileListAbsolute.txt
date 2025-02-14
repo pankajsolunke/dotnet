@@ -1,7 +1,0 @@
-D:\dotnet\FirstSolution\First\bin\Debug\First.exe.config
-D:\dotnet\FirstSolution\First\bin\Debug\First.exe
-D:\dotnet\FirstSolution\First\bin\Debug\First.pdb
-D:\dotnet\FirstSolution\First\obj\Debug\First.csproj.AssemblyReference.cache
-D:\dotnet\FirstSolution\First\obj\Debug\First.csproj.CoreCompileInputs.cache
-D:\dotnet\FirstSolution\First\obj\Debug\First.exe
-D:\dotnet\FirstSolution\First\obj\Debug\First.pdb
