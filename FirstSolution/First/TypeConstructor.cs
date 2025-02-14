@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -35,13 +36,21 @@ namespace First
         */
 
         //Parameterized Constructor
+        int x;
          public TypeConstructor(int i) {
             Console.WriteLine("Parameterized Constructor is called:"+i);
+        }
+        public void Display()
+        {
+            Console.WriteLine("Value of x is: " + x);
         }
 
         static void Main(string[] args)
         {
             TypeConstructor t = new TypeConstructor(23);
+            TypeConstructor t1 = new TypeConstructor(12);
+            t1.Display();
+            Console.ReadLine();
         }
         
 
