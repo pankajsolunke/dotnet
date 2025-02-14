@@ -3,18 +3,22 @@
   "WorkspaceRootPath": "D:\\dotnet\\FirstSolution\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8A8987F0-0F71-43B7-9C11-03F5B081F637}|First\\First.csproj|d:\\dotnet\\firstsolution\\first\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A8987F0-0F71-43B7-9C11-03F5B081F637}|First\\First.csproj|solutionrelative:first\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A8987F0-0F71-43B7-9C11-03F5B081F637}|First\\First.csproj|d:\\dotnet\\firstsolution\\first\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A8987F0-0F71-43B7-9C11-03F5B081F637}|First\\First.csproj|solutionrelative:first\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A8987F0-0F71-43B7-9C11-03F5B081F637}|First\\First.csproj|d:\\dotnet\\firstsolution\\first\\typeconstructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A8987F0-0F71-43B7-9C11-03F5B081F637}|First\\First.csproj|solutionrelative:first\\typeconstructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|First||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A8987F0-0F71-43B7-9C11-03F5B081F637}|First\\First.csproj|d:\\dotnet\\firstsolution\\first\\explicit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8A8987F0-0F71-43B7-9C11-03F5B081F637}|First\\First.csproj|d:\\dotnet\\firstsolution\\first\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A8987F0-0F71-43B7-9C11-03F5B081F637}|First\\First.csproj|solutionrelative:first\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A8987F0-0F71-43B7-9C11-03F5B081F637}|First\\First.csproj|D:\\dotnet\\FirstSolution\\first\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A8987F0-0F71-43B7-9C11-03F5B081F637}|First\\First.csproj|solutionrelative:first\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A8987F0-0F71-43B7-9C11-03F5B081F637}|First\\First.csproj|D:\\dotnet\\FirstSolution\\first\\explicit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A8987F0-0F71-43B7-9C11-03F5B081F637}|First\\First.csproj|solutionrelative:first\\explicit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -28,11 +32,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
+              "Title": "TypeConstructor.cs",
+              "DocumentMoniker": "D:\\dotnet\\FirstSolution\\First\\TypeConstructor.cs",
+              "RelativeDocumentMoniker": "First\\TypeConstructor.cs",
+              "ToolTip": "D:\\dotnet\\FirstSolution\\First\\TypeConstructor.cs",
+              "RelativeToolTip": "First\\TypeConstructor.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T02:46:44.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Explicit.cs",
               "DocumentMoniker": "D:\\dotnet\\FirstSolution\\First\\Explicit.cs",
               "RelativeDocumentMoniker": "First\\Explicit.cs",
@@ -40,12 +57,11 @@
               "RelativeToolTip": "First\\Explicit.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T20:57:38.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T20:57:38.511Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "First",
               "DocumentMoniker": "D:\\dotnet\\FirstSolution\\First\\First.csproj",
               "RelativeDocumentMoniker": "First\\First.csproj",
@@ -57,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\dotnet\\FirstSolution\\First\\Class1.cs",
               "RelativeDocumentMoniker": "First\\Class1.cs",
@@ -65,18 +81,17 @@
               "RelativeToolTip": "First\\Class1.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAuwB8AAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T19:36:31.006Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-13T19:36:31.006Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\dotnet\\FirstSolution\\First\\Program.cs",
               "RelativeDocumentMoniker": "First\\Program.cs",
               "ToolTip": "D:\\dotnet\\FirstSolution\\First\\Program.cs",
               "RelativeToolTip": "First\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T19:35:52.143Z",
               "EditorCaption": ""
