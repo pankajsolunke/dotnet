@@ -4,3 +4,4 @@ bin/
 obj/
 .user
 FirstSolution/First/First.csproj.user
+.csproj
