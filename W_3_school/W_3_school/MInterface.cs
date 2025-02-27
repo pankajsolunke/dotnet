@@ -16,7 +16,7 @@ namespace W_3_school
         void Second(); // interface method
     }
 
-    // Implement multiple interfaces
+    // Implement multiple interfaces separated by comma
     class DemoClass : IFirst , ISecond
     {
         public void First()
