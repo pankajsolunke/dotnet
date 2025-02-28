@@ -48,7 +48,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>W_3_school.Enums</StartupObject>
+    <StartupObject>W_3_school.Files</StartupObject>
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup>
@@ -67,6 +67,7 @@
   <ItemGroup>
     <Compile Include="Abstraction.cs" />
     <Compile Include="Enums.cs" />
+    <Compile Include="Files.cs" />
     <Compile Include="Interfaces.cs" />
     <Compile Include="MInterface.cs" />
     <Compile Include="Polymorphism.cs" />
