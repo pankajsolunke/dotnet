@@ -12,7 +12,7 @@ namespace W_3_school
         static void Main()
         {
                          // path of file to create this location
-            string filePath = "C:\\Users\\ASUS\\Desktop\\textfile1";
+            string filePath = "C:\\Users\\ASUS\\Desktop\\textfile1.txt";
             string content1F = "Using by the file.Create() This method creates an empty file\n";
 
             // 1.Create a new file
@@ -83,6 +83,56 @@ namespace W_3_school
                 Console.WriteLine("File does not exist.");
             }
 
+            // 9.Copy a file 
+            // sourceFilePath → The path of the existing file to copy.
+            // destinationFilePath → The path where the new copied file will be created.
+            string copytextfile = "C:\\Users\\ASUS\\Desktop\\copytextfile.txt";
+            try
+            {
+                //By passing true, the File.Copy() method overwrites the file if it already exists.
+                File.Copy(filePath, copytextfile , true);
+                Console.WriteLine("File copied and overwritten Successfully..!");
+            }
+            catch (IOException e)
+            {
+                /*IOException	       -Destination file already exists and overwrite is false
+                FileNotFoundException  -Source file does not exist
+            UnauthorizedAccessException-No permission to access the file
+                 ArgumentException	   -Invalid file path provided*/
+                Console.WriteLine("Error: "+ e.Message);
+            }
+
+            // 10.Delete the file
+            // The File.Delete() method is used to delete an existing file from the system.
+            string newfile = "C:\\Users\\ASUS\\Desktop\\newfile.txt";
+            File.Create(newfile).Close();
+            string newfilec = "new file content";
+            File.WriteAllText(newfile,newfilec);
+            string newfilecr = File.ReadAllText(newfile);
+            Console.WriteLine(newfilecr);
+
+            try
+            {
+                // If the file does not exist, it will not throw an error but simply do nothing
+                /* if (File.Exists(newfile))
+                 {
+                     File.Delete(newfile);
+                     Console.WriteLine("File deleted successfully..!");
+                 }
+                 else
+                 {
+                     Console.WriteLine("file not found..!");
+                 }
+                 */
+
+                //If the file is open in another program, you'll see an error like
+                File.Delete(newfile);
+                Console.WriteLine("file deleted..!");
+            }
+            catch (IOException e)
+            {
+                Console.WriteLine("Error: " + e.Message);
+            }
         }
     }
 }
@@ -93,4 +143,5 @@ namespace W_3_school
     Read File (Full)	-->         File.ReadAllText()
     Read File (Line by Line) -->    File.ReadAllLines(), StreamReader
     Check File Exists	-->         File.Exists()
+    Copy a file         -->         File.Copy()
 */
