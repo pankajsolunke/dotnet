@@ -56,7 +56,9 @@ namespace W_3_school
                     "5.Reading a file line by line\r\n// File.ReadAllLines(filePath);\r\n// → Reads all lines into a string array and processes them in a loop.\n" +
                     "6.Using StreamWriter (for large files)\r\n// if you need to write a file efficiently,use streamwriter \n" +
                     "7.Using StreamReader (for large Files)\r\n// for efficient file reading use streamReader \r\n// Reads a file line by line (useful for large files to avoid memory overload).\n" +
-                    "8.Checking if a File Exists\r\n// File.Exists(filePath);\r\n// -> Checks if the file exists before performing operations.\n");
+                    "8.Checking if a File Exists\r\n// File.Exists(filePath);\r\n// -> Checks if the file exists before performing operations.\n" +
+                    "9.Copy a file \r\n// sourceFilePath → The path of the existing file to copy.\r\n// destinationFilePath → The path where the new copied file will be created" +
+                    "10.Delete the file\r\n// The File.Delete() method is used to delete an existing file from the system");
             }
 
             // 7.using StreamReader (for large Files)
