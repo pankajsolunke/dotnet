@@ -1,18 +1,30 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
+using W_3_school;
 
 namespace W_3_school
 {
-    class Exceptions
+    class ThrowException : Exception
     {
+        public ThrowException(string message) : base(message) { }
+    }
+  
+    class Exceptions 
+    {
+
         static void ValidateAge(int age)
         {
             if (age < 18)
             {
-                throw new ArgumentException("age must be 18 or above..!");
+                throw new ThrowException("custom exception: age must be 18 or above..!");
+            }
+            else
+            {
+                Console.WriteLine("Access granted - you are old enough..!");
             }
         }
 
@@ -20,11 +32,12 @@ namespace W_3_school
         {
             try
             {
-                ValidateAge(14);
+                ValidateAge(16);
             }
-            catch (ArgumentException a)
+            catch (ThrowException t)
             {
-                Console.WriteLine(a.Message);
+                Console.WriteLine("Caught Custom Exception:");
+                Console.WriteLine(t.Message);
             }
             finally
             {
